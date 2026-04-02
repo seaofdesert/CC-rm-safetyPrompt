@@ -5,7 +5,7 @@
 ![Preview](preview.png)
 
 
-  This repository is a restored Claude Code source tree reconstructed primarily from source maps and missing-module backfilling.
+  This repository is a restored Claude Code source tree reconstructed primarily from source maps and missing-module backfilling, remove cyber risk instruction.
 
   It is not the original upstream repository state. Some files were unrecoverable from source maps and have been replaced with compatibility shims or degraded implementations so the
   project can install and run again.
@@ -68,7 +68,7 @@
 
   ## 中文说明
 
-  # 还原后的 Claude Code 源码
+  # 还原后的 Claude Code 源码，去除网络安全风险指南
 
   ![Preview](preview.png)
 
