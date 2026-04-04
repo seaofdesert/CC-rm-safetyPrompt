@@ -1,0 +1,1 @@
+bun run dev --dangerously-skip-permissions
