@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Undercover mode — safety utilities for contributing to public/open-source repos.
  *
  * When active, Claude Code adds safety instructions to commit/PR prompts and
@@ -63,9 +63,9 @@ GOOD:
 
 BAD (never write these):
 - "Fix bug found while testing with Claude Capybara"
-- "1-shotted by claude-opus-4-6"
+- "1-shotted by claude-opus-4-7"
 - "Generated with Claude Code"
-- "Co-Authored-By: Claude Opus 4.6 <…>"
+- "Co-Authored-By: Claude Opus 4.7 <…>"
 `
   }
   return ''
