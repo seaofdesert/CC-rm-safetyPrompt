@@ -266,7 +266,9 @@ function getInitialState(): State {
     typeof process.cwd === 'function' &&
     typeof realpathSync === 'function'
   ) {
-    const rawCwd = cwd()
+    // Support overriding cwd via environment variable (for custom launchers)
+    const overrideCwd = process.env.CLAUDE_CODE_OVERRIDE_CWD
+    const rawCwd = overrideCwd && typeof overrideCwd === 'string' ? overrideCwd : cwd()
     try {
       resolvedCwd = realpathSync(rawCwd).normalize('NFC')
     } catch {
