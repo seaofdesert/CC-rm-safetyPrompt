@@ -41,14 +41,14 @@ echo @="Claude破解版"
 echo "Icon"="%REG_ICON_PATH%"
 echo.
 echo [HKEY_CLASSES_ROOT\Directory\shell\Claude_Crack\command]
-echo @="C:\\Windows\\System32\\cmd.exe /c call "%REG_BAT_PATH%" "%%1""
+echo @="C:\\Windows\\System32\\cmd.exe /c call \"%REG_BAT_PATH%\" \"%%1\""
 echo.
 echo [HKEY_CLASSES_ROOT\Directory\Background\shell\Claude_Crack]
 echo @="Claude破解版"
 echo "Icon"="%REG_ICON_PATH%"
 echo.
 echo [HKEY_CLASSES_ROOT\Directory\Background\shell\Claude_Crack\command]
-echo @="C:\\Windows\\System32\\cmd.exe /c call "%REG_BAT_PATH%" "%%V""
+echo @="C:\\Windows\\System32\\cmd.exe /c call \"%REG_BAT_PATH%\" \"%%V\""
 ) > "%REG_FILE%"
 
 :: 导入注册表
